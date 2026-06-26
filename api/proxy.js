@@ -7,7 +7,7 @@ export default async function handler(req, res) {
   }
 
   const scriptURL =
-    "https://script.google.com/macros/s/AKfycby9n7kRtPM4Wye_PhU7ZvmtM2T21nu0BWd3TyZ8mwGkYPOci-6kaRh6Jttf1oOly6duag/exec"; // your GAS endpoint
+    "https://script.google.com/macros/s/AKfycbw2COqwZB72mazDyKyulu3nH5uxpG0gRVFts_73ySlAS7zMto_cAk5K4Ycay35yaHd8/exec"; // your GAS endpoint
 
   try {
     const response = await fetch(scriptURL, {
